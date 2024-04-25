@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    header{
+        font-size: 24px;
+        font-style: 'Dokdo', cursive;
+        text-align: center;
+    }
+    .navbar {
+            background-color: rgb(95, 7, 82);
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 30px 30px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 30px;
+            box-sizing: border-box;
+        }
+
+    
+    body {
+        margin: 0;
+        font-family:cursive;
+        background-color: #f4f4f4;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+    
+    .gallery-item {
+        flex: 1 0 300px; /* Flexbox: grow, shrink, basis */
+        margin: 10px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    .gallery-item:hover img {
+        transform: scale(1.1);
+    }
+    .gallery-item h1 {
+        font-family:cursive;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h2> Gallery</h2>
+    </header>
+    <hr/>
+    <div class="navbar">
+        <a href="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\final about us.html">About Us</a>
+        <a href="">Orders</a>
+        <a href="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\gallary (n).html">Gallery</a>
+        <a href="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\index.html">Home</a>
+    </div>
+
+    <div class="gallery">
+        
+        <div class="gallery-item">
+            <img src="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\images\IMG_0199.jpg"alt="Image 1">
+            <h1>Purse</h1>
+        </div>
+        <div class="gallery-item">
+            <img src="D:\avani website vscodes\gallery.html\doily.jpg" alt="Image 2">
+            <h1>Flower Pot Designs</h1>
+        </div>
+        <div class="gallery-item">
+            <img src="D:\avani website vscodes\gallery.html\da05f659a0841840931ba79e01a519a5.jpg"alt="Image 3">
+            <h1>Wallets</h1>
+        </div>
+        <div class="gallery-item">
+            <img src="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\images\5BBACE66-8DAD-4835-927F-D3B2AB9240DD.png"alt="Image 2">
+            <h1>Crochet Tops</h1>
+        </div>
+         <div class="gallery-item">
+            <img src="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\images\IMG_1800.jpeg" alt="Image 2">
+            <h1>Key Chains</h1>
+        </div>
+         <div class="gallery-item">
+            <img src="D:\avani website vscodes\gallery.html\Crochet-Tote-Bag-Pattern-Free.jpg" alt="Image 2">
+            <h1>Tote Bags</h1>
+        </div>
+         <div class="gallery-item">
+            <img src="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\images\round-crochet-coasters-600x473.jpg" alt="Image 2">
+            <h1>Tea Coasters</h1>
+        </div>
+         <div class="gallery-item">
+            <img src="C:\Users\DR.J.A.KHOT\Desktop\Website RIDHIMA CROCEHT\images\background.jpg"alt="Image 2">
+            <h1>Pillow Covers</h1>
+        </div> 
+        
+    </div>
+
+</body>
+</html>
